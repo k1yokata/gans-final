@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+*.zip
+
+# Outputs
+outputs/models/
+outputs/images/
+*.pth
+*.pt
+*.pkl
+
+# System
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
