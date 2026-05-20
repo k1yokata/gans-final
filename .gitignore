@@ -40,3 +40,4 @@ outputs/images/
 
 # Logs
 *.log
+outputs/preprocessors/*.joblib
