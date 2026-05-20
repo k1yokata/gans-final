@@ -45,3 +45,9 @@ outputs/preprocessors/*.joblib
 # Generated synthetic data
 outputs/synthetic/
 outputs/synthetic/*
+
+outputs/evaluation/
+outputs/images/
+outputs/synthetic/
+outputs/models/
+._*
