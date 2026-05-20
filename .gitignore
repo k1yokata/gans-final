@@ -1,9 +1,10 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
-# Virtual environments
+# Virtual environment
 .venv/
 venv/
 env/
@@ -12,42 +13,22 @@ env/
 .idea/
 .vscode/
 
-# Jupyter
-.ipynb_checkpoints/
-
 # macOS
 .DS_Store
 ._*
-.AppleDouble
-.LSOverride
 
-# Data
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw large data
 data/raw/
-data/processed/*.csv
-data/processed/*.parquet
-data/processed/*.xlsx
-*.zip
 
-# Outputs
-outputs/models/
-outputs/images/
-*.pth
-*.pt
-*.pkl
+# Large model checkpoints
+outputs/models/*.pth
+outputs/models/*.pt
 
-# Environment
-.env
-
-# Logs
-*.log
+# Preprocessor binary files
 outputs/preprocessors/*.joblib
 
-# Generated synthetic data
-outputs/synthetic/
-outputs/synthetic/*
-
-outputs/evaluation/
-outputs/images/
-outputs/synthetic/
-outputs/models/
-._*
+# Temporary files
+*.log

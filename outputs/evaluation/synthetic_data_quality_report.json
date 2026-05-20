@@ -1,0 +1,10 @@
+{
+    "average_mean_absolute_difference": 12276.4064116837,
+    "average_std_absolute_difference": 14759.255681593468,
+    "average_correlation_difference": 0.10595663448866158,
+    "interpretation": {
+        "mean_difference": "Lower value means synthetic data has closer average values to real data.",
+        "std_difference": "Lower value means synthetic data has closer variability to real data.",
+        "correlation_difference": "Lower value means synthetic data preserves relationships between features better."
+    }
+}
