@@ -41,3 +41,7 @@ outputs/images/
 # Logs
 *.log
 outputs/preprocessors/*.joblib
+
+# Generated synthetic data
+outputs/synthetic/
+outputs/synthetic/*
