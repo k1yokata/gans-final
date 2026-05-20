@@ -62,7 +62,7 @@ def find_processed_dataset() -> Path:
 
 def load_dataset() -> tuple[torch.Tensor, list[str], pd.DataFrame]:
     """
-    Загружает подготовленный датасет и оставляет только числовые признаки.
+    Загружаем подготовленный датасет и оставляем только числовые признаки.
     """
 
     dataset_path = find_processed_dataset()
@@ -125,7 +125,7 @@ def denormalize_data(
     metadata_path: Path,
 ) -> pd.DataFrame:
     """
-    Возвращает сгенерированные данные из диапазона [-1, 1]
+    Возврат сгенерированных данных из диапазона [-1, 1]
     обратно в исходный числовой диапазон.
     """
 
@@ -147,9 +147,6 @@ def denormalize_data(
 
 
 def save_loss_plot(generator_losses: list[float], discriminator_losses: list[float]) -> None:
-    """
-    Сохраняет график обучения GAN.
-    """
 
     plt.figure(figsize=(10, 6))
     plt.plot(generator_losses, label="Generator loss")
