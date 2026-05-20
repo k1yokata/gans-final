@@ -1,0 +1,51 @@
+{
+    "original_columns": [
+        "tender_id",
+        "buyer_id",
+        "supplier_id",
+        "region",
+        "procedure_type",
+        "expected_value",
+        "final_value",
+        "price_reduction_percent",
+        "number_of_bidders",
+        "supplier_previous_wins",
+        "buyer_previous_tenders",
+        "contract_days",
+        "risk_score",
+        "risk_label"
+    ],
+    "used_columns": [
+        "region",
+        "procedure_type",
+        "expected_value",
+        "final_value",
+        "price_reduction_percent",
+        "number_of_bidders",
+        "supplier_previous_wins",
+        "buyer_previous_tenders",
+        "contract_days"
+    ],
+    "dropped_columns": [
+        "tender_id",
+        "buyer_id",
+        "supplier_id",
+        "risk_score",
+        "risk_label"
+    ],
+    "numerical_columns": [
+        "expected_value",
+        "final_value",
+        "price_reduction_percent",
+        "number_of_bidders",
+        "supplier_previous_wins",
+        "buyer_previous_tenders",
+        "contract_days"
+    ],
+    "categorical_columns": [
+        "region",
+        "procedure_type"
+    ],
+    "input_dim": 19,
+    "rows": 5000
+}
